@@ -1,0 +1,44 @@
+:root {
+    overflow: hidden;
+    font-size: 16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;   
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container > div {
+    position: relative;
+}
+
+.quote {
+    background-color: red;
+    height: 224px;
+    width: 528px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 16px;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+.button{
+    position: absolute;
+    margin-left: auto;
+}
+
